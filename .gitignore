@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+
+# generated reports
+gtin_audit_report/
+examples/sample_report/
+report/
+
+# never commit real company exports
+data/
+*.xlsx
+!tests/**/*.xlsx
